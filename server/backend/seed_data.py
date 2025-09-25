@@ -116,7 +116,7 @@ def create_sample_data():
             {
                 "username": "admin",
                 "email": "admin@fitnesswear.com",
-                "password_hash": generate_password_hash("admin123"),
+                "password_hash": generate_password_hash("SecureAdmin2024!"),
                 "first_name": "Admin",
                 "last_name": "User",
                 "role": UserRole.ADMIN,
@@ -126,7 +126,7 @@ def create_sample_data():
             {
                 "username": "staff1",
                 "email": "staff1@fitnesswear.com",
-                "password_hash": generate_password_hash("staff123"),
+                "password_hash": generate_password_hash("SecureStaff2024!"),
                 "first_name": "John",
                 "last_name": "Staff",
                 "role": UserRole.STAFF,
@@ -136,7 +136,7 @@ def create_sample_data():
             {
                 "username": "customer1",
                 "email": "customer1@example.com",
-                "password_hash": generate_password_hash("customer123"),
+                "password_hash": generate_password_hash("SecureCustomer2024!"),
                 "first_name": "Alice",
                 "last_name": "Customer",
                 "role": UserRole.CUSTOMER,
@@ -146,7 +146,7 @@ def create_sample_data():
             {
                 "username": "customer2",
                 "email": "customer2@example.com",
-                "password_hash": generate_password_hash("customer123"),
+                "password_hash": generate_password_hash("SecureBuyer2024!"),
                 "first_name": "Bob",
                 "last_name": "Buyer",
                 "role": UserRole.CUSTOMER,
